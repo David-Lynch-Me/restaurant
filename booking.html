@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="./main.css">
+    <title>Restaurant Table Booking</title>
+</head>
+<body>
+    <h1 class="header">The Restaurant</h1>
+
+    <div class="booking-container">
+        <div class="booking-item">
+            <div>
+                <h2>Booking Details</h2>
+
+                <p>
+                    Fill in your details to book a table at the restaurant.<br>Set the number of seats required<br>
+                </p>
+            </div>
+
+            <form action="./index.html" method="post" autocomplete="on">
+                <label for="fname">Fullname:</label><br>
+                <input type="text" id="fname" name="fname"><br>
+
+                <label for="add1">Address:</label><br>
+                <input type="text" id="add1" name="add1"><br>
+
+                <label for="postcode">Postcode:</label><br>
+                <input type="text" id="postcode" name="postcode"><br>
+
+                <label for="telephone">Telephone:</label><br>
+                <input type="text" id="telephone" name="telephone"><br><br>
+
+                <label for="seats">No. of seats:</label><br>
+                <input type="text" id="seats" name="seats"><br><br>
+
+                <label for="datetime">Date and time:</label><br>
+                <input type="text" id="datetime" name="datetime"><br><br>
+
+                <label for="message">Notes</label><br>
+                <textarea name="message" style="width:400px; height:60px;"></textarea><br><br>
+
+                <input type="submit" value="Submit">
+            </form>
+        </div> <!-- item-->
+
+        <div class="booking-item">
+            <h2>Customer Reviews</h2>
+            <div class="booking-review">
+                <p></p>
+            </div>
+            
+            <div class="booking-review">
+                <p><span class="crhead">&nbspDavid 11/11/2021 *****&nbsp<sup>good</sup></span><br>This cozy restaurant has left the best impressions! Hospitable hosts, delicious dishes, beautiful presentation, wide wine list and wonderful dessert. I recommend to everyone! I would like to come back here again and again.
+                </p>
+            </div>
+
+            <div class="booking-review">
+                <p><span class="crhead">&nbspDavid 11/11/2021 *****&nbsp</span><br>It’s a great experience. The ambiance is very welcoming and charming. Amazing wines, food and service. Staff are extremely knowledgeable and make great recommendations.</p>
+            </div>
+
+            <div class="booking-review">
+                <p><span class="crhead">&nbspDavid 11/11/2021 *****&nbsp</span><br>This place is great! Atmosphere is chill and cool but the staff is also really friendly. They know what they’re doing and what they’re talking about, and you can tell making the customers happy is their main priority. Food is pretty good, some italian classics and some twists, and for their prices it’s 100% worth it.</p>
+            </div>
+
+            <div class="booking-review">
+                <p><span class="crhead">&nbspDavid 11/11/2021 *****&nbsp</span><br>Excellent food. Menu is extensive and seasonal to a particularly high standard. Definitely fine dining. It can be expensive but worth it and they do different deals on different nights so it’s worth checking them out before you book. Highly recommended.</p>
+            </div>
+        </div>
+           
+    </div>
+</body>
+</html>
